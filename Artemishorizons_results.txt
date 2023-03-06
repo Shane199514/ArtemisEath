@@ -1,0 +1,359 @@
+*******************************************************************************
+ Revised: Dec 10, 2022        Artemis I / Spacecraft (Earth)              -1023
+                              https://www.nasa.gov/artemis-1
+
+ BACKGROUND:
+  NASA's 26-day unmanned Artemis I mission was a test of integrated systems to:
+
+   - launch Orion atop the SLS rocket 
+   - operate the spacecraft in a deep space environment
+   - orbit the Moon in a distant retrograde orbit before returning to Earth
+   - test Orion's heat shield at 30,000 km/hr (2760 deg. C), and 
+   - recover the crew module after reentry, descent, and splashdown
+
+ MAJOR EVENTS:
+  Launched November 16 @ 06:47:44 UTC from pad 39B at the Kennedy Space Center. 
+
+  Relative timings below may or may not be be shifted slightly due to launch 
+  being delayed 43 minutes.
+
+  launch+00h 18m 09s - Orion deploys solar arrays in Earth orbit
+        +00h 52m 56s - Perigee raise maneuver (22 second burn)
+        +01h 29m 27s - Trans-lunar injection burn (18m burn)
+        +01h 57m 36s - Orion/ICPS separation 
+        +01h 58m 58s - Upper stage separation burn
+
+  After Orion separates from the ICPS ("Interim Cryogenic Propulsion Stage"), 
+  10 small spacecraft ("CubeSats") will be deployed to perform experiments and
+  technology demonstrations. Each CubeSat provides its own propulsion and 
+  navigation.
+
+        +07h 47m 31s - Outbound Trajectory Correction-1 burn
+
+   Flight Day  02-05 - Outbound transit 
+               06-09 - Transit to Distant Retrograde Orbit (DRO) around Moon,
+                         closest lunar approach ~97 km (Day 06)
+               10-15 - In DRO
+               16-19 - Exit DRO (departure burn on Day 24)
+               20-26 - Return transit
+                  26 - Entry and splashdown (Pacific)
+
+  Splashdown off Baja California on Dec 11 at 17:40:30 UTC
+  Mission elapsed time was 25 days, 10h 54m 50s
+
+ ORION TEST DUMMIES (named by public contest)
+
+  Commander Moonikin Campos - A suited manikin will occupy the commander's seat
+   inside Orion to provide data on vibration, acceleration, and radiation that
+   crew members may experience in flight.
+ 
+  Helga and Zohar - Two additional seats in Orion will be occupied by manikin 
+   torsos manufactured from materials that mimic human bones, soft tissues, and
+   organs. The torsos will be fitted with more than 5,600 passive sensors and 
+   34 active radiation detectors.
+
+   Zohar will wear a radiation protection vest while Helga will not. The study
+   will provide data on radiation levels astronauts may encounter on lunar 
+   missions and evaluate the effectiveness of the protective vest.
+
+ SPACECRAFT DETAILS
+  SLS                
+   * Height                : 98 meters
+   * Mass at liftoff       : 2.61 million kg
+   * Thrust at liftoff     : 39.1 million Newtons
+   * Payload to the moon   : 27,000 kg
+ 
+  Orion module
+   * Crew + service mod hgt: 7.92 meters
+   * Pressurized volume    : 19.6 m^3 
+   * Mass to the Moon      : 24,000 kg
+   * Return mass at landing:  8,260 kg
+  
+ CUBESATS DISPENSED (independent missions and trajectories once released):
+  Moon
+   Lunar IceCube: Detect all forms of water & other volatiles (IR spectrometer)
+   LunaH-Map    : Higher-fidelity mapping of near-surface hydrogen in craters 
+                  and other permanently shadowed regions of the lunar South 
+                  Pole (neutron spectrometers) [UPDATE: missed maneuver]
+   LunIR        : Infrared imaging of the lunar surface [UPDATE: problems]
+   OMOTENASHI   : Lunar lander and studying the lunar environment
+                  Separate trajectory available in Horizons.
+                  [UPDATE: lunar activity cancelled, communications problems]
+
+  Radiation
+   CuSP         : Measure particles & magnetic fields (space weather station)
+   BioSentinel  : Use single-celled yeast to detect, measure and compare the 
+                  impact of deep-space radiation on living organisms over a 
+                  long period of time
+   EQUULEUS     : Image Earth's plasmasphere for a better understanding of
+                  Earth's radiation environment from Earth-Moon LaGrange 2 
+                  point ("EM-L2", object 3012 in Horizons)
+
+  Asteroid
+   NEA Scout    : Travel by solar sail to asteroid 2020 GE to image and 
+                  characterize its surface in September 2024.  Separate 
+                  trajectory available in Horizons.
+                  [UPDATE: No contact after deployment]
+
+  Technology Demonstrations
+   ArgoMoon      : Observing interim cryogenic propulsion stage with advanced 
+                   optics and software imaging system
+   Team Miles    : Demonstrating propulsion using plasma thrusters, competing 
+                   in NASA's Deep Space Derby [UPDATE: no contact after 
+                   deployment]
+
+ SPACECRAFT TRAJECTORY:
+  Post-launch reconstructed Orion trajectory from NASA/JSC navigation:
+
+  Trajectory name                              Start (TDB)    Stop (TDB)
+  ----------------------------------------- ----------------- -----------------
+  Orion_OEM_20221117_1600_V0.1              2022-Nov-16 09:03 2022-Nov-17 17:47
+  20221118_1920_EPH_OEM.V0.1                2022-Nov-17 17:47 2022-Nov-19 03:51
+  20221119_1407_V0.2                        2022-Nov-19 03:51 2022-Nov-19 18:35
+  20221120_1342_V0.1                        2022-Nov-19 18:35 2022-Nov-20 13:12
+  20221121_1411_V0.1                        2022-Nov-20 13:12 2022-Nov-21 16:58
+  20221121_1235_V0.1                        2022-Nov-21 16:58 2022-Nov-23 00:32
+  20221124_0150_V0.1                        2022-Nov-23 00:32 2022-Nov-24 01:04
+  20221125_0550_V0.1                        2022-Nov-24 01:04 2022-Nov-27 01:11
+  20221127_1156_V0.1                        2022-Nov-27 01:11 2022-Nov-28 00:09
+  20221129_1115_V0.1                        2022-Nov-28 00:09 2022-Nov-29 15:42
+  20221201_0017_V0.1                        2022-Nov-29 15:42 2022-Nov-30 16:32
+  20221201_1240_V0.1                        2022-Nov-30 16:32 2022-Dec-02 09:11
+  20221203_0000_V0.1                        2022-Dec-02 09:11 2022-Dec-03 14:52
+  20221205_0010_V0.1                        2022-Dec-03 14:52 2022-Dec-04 18:45
+  20221205_0100_V0.1                        2022-Dec-04 18:45 2022-Dec-05 19:22
+  20221206_1330_V0.2                        2022-Dec-05 19:22 2022-Dec-06 17:11
+  20221207_1334_V0.1                        2022-Dec-06 17:11 2022-Dec-07 05:11
+  20221208_0703_V0.1                        2022-Dec-07 05:11 2022-Dec-08 19:12
+  20221208_1345.V0.10                       2022-Dec-08 19:12 2022-Dec-10 01:34
+  20221210_2304.V0.1                        2022-Dec-10 01:34 2022-Dec-11 17:19
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Mon Mar  6 15:05:52 2023 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: Artemis I (spacecraft) (-1023)  {source: Artemis_I_merged}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: GEOCENTRIC
+*******************************************************************************
+Start time      : A.D. 2022-Nov-17 13:03:00.0000 UT      
+Stop  time      : A.D. 2022-Dec-11 13:21:14.7640 UT      
+Step-size       : 1440 minutes
+*******************************************************************************
+Target pole/equ : undefined
+Target radii    : undefined                                                    
+Center geodetic : 0.0, 0.0, -6378.137             {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}       
+Target primary  : Earth
+Vis. interferer : MOON (R_eq= 1737.400) km        {source: DE441}
+Rel. light bend : Sun                             {source: DE441}
+Rel. lght bnd GM: 1.3271E+11 km^3/s^2                                          
+Atmos refraction: NO (AIRLESS)
+RA format       : HMS
+Time format     : CAL 
+Calendar mode   : Mixed Julian/Gregorian
+EOP file        : eop.230306.p230529                                           
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2023-MAR-06. PREDICTS-> 2023-MAY-28
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s 
+Table cut-offs 1: Elevation (-90.0deg=NO ),Airmass (>38.000=NO), Daylight (NO )
+Table cut-offs 2: Solar elongation (  0.0,180.0=NO ),Local Hour Angle( 0.0=NO )
+Table cut-offs 3: RA/DEC angular rate (     0.0=NO )                           
+Table format    : Comma Separated Values (spreadsheet)
+*************************************************************************************************************************************************************************************
+ Date__(UT)__HR:MN, , , R.A._(ICRF), DEC__(ICRF),    APmag,  S-brt,             delta,     deldot,     S-O-T,/r,     S-T-O,  Sky_motion, Sky_mot_PA, RelVel-ANG, Lun_Sky_Brt  sky_SNR
+*************************************************************************************************************************************************************************************
+$$SOE
+ 2022-Nov-17 13:03, , , 13 05 15.07, -03 28 15.9,   19.863,   n.a.,  0.00148101484501,  1.2054550,   38.5875,/L,  141.3590,   17.763302,  120.50042,  75.221543,        n.a.     n.a.
+ 2022-Nov-18 13:03, , , 13 22 40.43, -06 01 01.7,   21.133,   n.a.,  0.00202601133826,  0.7297689,   34.5752,/L,  145.3581,   9.3430560,  120.19788,  72.591233,        n.a.     n.a.
+ 2022-Nov-19 13:03, , , 13 33 31.66, -07 34 49.6,   21.801,   n.a.,  0.00235444631095,  0.4224258,   32.4788,/L,  147.4478,   6.6019065,  120.04139,  66.020111,        n.a.     n.a.
+ 2022-Nov-20 13:03, , , 13 41 32.47, -08 44 10.8,   22.175,   n.a.,  0.00252441944032,  0.1703138,   31.2036,/L,  148.7204,   4.8409477,  120.64018,  49.061421,        n.a.     n.a.
+ 2022-Nov-21 13:03, , , 13 42 21.24, -09 02 25.1,   22.048,   n.a.,  0.00252304050496, -2.1221104,   31.9063,/L,  148.0159,   5.4746761,  132.08785,  -85.50127,        n.a.     n.a.
+ 2022-Nov-22 13:03, , , 14 59 29.07, -17 28 19.3,   28.545,   n.a.,  0.00229112448987, -0.0824542,   12.4290,/L,  167.5421,   50.471459,  111.53330,  -3.381466,        n.a.     n.a.
+ 2022-Nov-23 13:03, , , 16 18 10.92, -23 34 10.4,   36.459,   n.a.,  0.00230953362697,  0.1213965,    6.2673,/T,  173.7183,   46.061192,  104.51835,  5.3873894,        n.a.     n.a.
+ 2022-Nov-24 13:03, , , 17 33 12.74, -26 43 19.0,   24.078,   n.a.,  0.00241114343929,  0.2174330,   22.3517,/T,  157.5952,   40.192758,  96.563819,  10.509944,        n.a.     n.a.
+ 2022-Nov-25 13:03, , , 18 40 09.11, -27 28 25.3,   21.368,   n.a.,  0.00254773492262,  0.2460475,   36.2282,/T,  143.6844,   34.449578,  88.896707,  13.052571,        n.a.     n.a.
+ 2022-Nov-26 13:03, , , 19 34 36.94, -26 35 40.6,   20.102,   n.a.,  0.00271325920494,  0.2898231,   47.3647,/T,  132.5193,   26.967662,  82.600019,  18.139344,        n.a.     n.a.
+ 2022-Nov-27 13:03, , , 20 18 14.06, -24 55 12.4,   19.370,   n.a.,  0.00285460345563,  0.1921858,   56.3101,/T,  123.5519,   23.123832,  77.855823,  13.539299,        n.a.     n.a.
+ 2022-Nov-28 13:03, , , 20 55 34.44, -22 47 53.5,   18.837,   n.a.,  0.00292693815015,  0.0524004,   64.0912,/T,  115.7558,   21.221392,  74.073583,  3.9896701,        n.a.     n.a.
+ 2022-Nov-29 13:03, , , 21 30 29.41, -20 14 35.4,   18.355,   n.a.,  0.00291249756219, -0.1002041,   71.5883,/T,  108.2510,   21.747289,  70.875997,  -7.458225,        n.a.     n.a.
+ 2022-Nov-30 13:03, , , 22 06 47.36, -17 01 16.8,   17.850,   n.a.,  0.00281761490161, -0.2209920,   79.7539,/T,  100.0849,   24.468056,  67.984806,  -14.85308,        n.a.     n.a.
+ 2022-Dec-01 13:03, , , 22 47 35.04, -12 46 46.0,   17.293,   n.a.,  0.00266599448231, -0.2946988,   89.4635,/T,   90.3815,   29.358643,  65.435311,  -17.30104,        n.a.     n.a.
+ 2022-Dec-02 13:03, , , 23 35 15.21, -07 01 41.7,   16.728,   n.a.,  0.00253765103825, -0.1723138,  101.5062,/T,   78.3493,   35.438024,  62.722201,  -9.006240,        n.a.     n.a.
+ 2022-Dec-03 13:03, , , 00 28 58.66, +00 01 41.9,   16.194,   n.a.,  0.00244996897048, -0.1199922,  115.6141,/T,   64.2576,   40.312870,  62.006048,  -5.737003,        n.a.     n.a.
+ 2022-Dec-04 13:03, , , 01 29 44.33, +07 55 35.2,   15.700,   n.a.,  0.00241634502299,  0.0248613,  131.6459,/T,   48.2492,   44.948279,  63.318272,  1.0886286,        n.a.     n.a.
+ 2022-Dec-05 13:03, , , 02 39 48.38, +15 48 05.4,   15.310,   n.a.,  0.00253844303978,  0.6165559,  149.4285,/T,   30.4964,   50.111371,  68.783075,  21.853913,        n.a.     n.a.
+ 2022-Dec-06 13:03, , , 02 46 16.60, +13 55 13.3,   15.440,   n.a.,  0.00268996508716, -0.0241392,  149.2784,/T,   30.6419,   6.1029627,  186.60795,  -6.937431,        n.a.     n.a.
+ 2022-Dec-07 13:03, , , 02 45 50.61, +11 33 12.4,   15.435,   n.a.,  0.00261422077273, -0.2391459,  147.2685,/T,   32.6494,   5.9697384,  179.92692,  -51.73301,        n.a.     n.a.
+ 2022-Dec-08 13:03, , , 02 46 06.74, +09 01 31.2,   15.315,   n.a.,  0.00240967348531, -0.4752288,  145.2342,/T,   34.6860,   6.8588839,  177.55430,  -67.19847,        n.a.     n.a.
+ 2022-Dec-09 13:03, , , 02 46 49.45, +05 52 12.9,   15.033,   n.a.,  0.00205389395709, -0.7720493,  142.8763,/T,   37.0516,   9.3483790,  176.44284,  -73.26820,        n.a.     n.a.
+ 2022-Dec-10 13:03, , , 02 48 12.46, +00 51 35.2,   14.425,   n.a.,  0.00148663329777, -1.2409135,  139.4671,/T,   40.4766,   17.759482,  175.97435,  -75.57710,        n.a.     n.a.
+ 2022-Dec-11 13:03, , , 02 54 20.28, -19 02 28.2,   12.193,   n.a.,  0.00044748897171, -2.9732415,  126.0768,/T,   53.9018,   196.06755,  175.56042,  -70.36840,        n.a.     n.a.
+$$EOE
+*************************************************************************************************************************************************************************************
+Column meaning:
+ 
+TIME
+
+  Times PRIOR to 1962 are UT1, a mean-solar time closely related to the
+prior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current
+civil or "wall-clock" time-scale. UTC is kept within 0.9 seconds of UT1
+using integer leap-seconds for 1972 and later years.
+
+  Conversion from the internal Barycentric Dynamical Time (TDB) of solar
+system dynamics to the non-uniform civil UT time-scale requested for output
+has not been determined for UTC times after the next July or January 1st.
+Therefore, the last known leap-second is used as a constant over future
+intervals.
+
+  Time tags refer to the UT time-scale conversion from TDB on Earth
+regardless of observer location within the solar system, although clock
+rates may differ due to the local gravity field and no analog to "UT"
+may be defined for that location.
+
+  Any 'b' symbol in the 1st-column denotes a B.C. date. First-column blank
+(" ") denotes an A.D. date.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+  NOTE: "n.a." in output means quantity "not available" at the print-time.
+ 
+ 'R.A._(ICRF), DEC__(ICRF),' =
+  Astrometric right ascension and declination of the target center with
+respect to the observing site (coordinate origin) in the reference frame of
+the planetary ephemeris (ICRF). Compensated for down-leg light-time delay
+aberration.
+
+  Units: RA  in hours-minutes-seconds of time,    HH MM SS.ff{ffff}
+         DEC in degrees-minutes-seconds of arc,  sDD MN SC.f{ffff}
+ 
+ 'APmag,  S-brt,' =
+  The targets' approximate apparent visual magnitude and surface brightness.
+For planets and natural satellites, output is restricted to solar phase angles
+covered by observational data. Outside the observed phase angle range, "n.a."
+may be output to avoid extrapolation beyond the limit of model validity.
+
+   For Earth-based observers, the estimated dimming due to atmospheric
+absorption (extinction) is available as a separate, requestable quantity.
+
+   Surface brightness is the average airless visual magnitude of a
+square-arcsecond of the illuminated portion of the apparent disk. It is
+computed only if the target radius is known.
+
+   Units: MAGNITUDES & MAGNITUDES PER SQUARE ARCSECOND
+ 
+ 'delta,     deldot,' =
+   Apparent range ("delta", light-time aberrated) and range-rate ("delta-dot")
+of the target center relative to the observer. A positive "deldot" means the
+target center is moving away from the observer, negative indicates movement
+toward the observer.  Units: AU and KM/S
+ 
+ 'S-O-T,/r,' =
+   Sun-Observer-Target apparent SOLAR ELONGATION ANGLE seen from the observers'
+location at print-time.
+
+   The '/r' column provides a code indicating the targets' apparent position
+relative to the Sun in the observers' sky, as described below:
+
+   Case A: For an observing location on the surface of a rotating body, that
+body rotational sense is considered:
+
+    /T indicates target TRAILS Sun   (evening sky: rises and sets AFTER Sun)
+    /L indicates target LEADS Sun    (morning sky: rises and sets BEFORE Sun)
+
+   Case B: For an observing point that does not have a rotational model (such
+as a spacecraft), the "leading" and "trailing" condition is defined by the
+observers' heliocentric ORBITAL motion:
+
+    * If continuing in the observers' current direction of heliocentric
+       motion would encounter the targets' apparent longitude first, followed
+       by the Sun's, the target LEADS the Sun as seen by the observer.
+
+    * If the Sun's apparent longitude would be encountered first, followed
+       by the targets', the target TRAILS the Sun.
+
+   Two other codes can be output:
+    /* indicates observer is Sun-centered    (undefined)
+    /? Target is aligned with Sun center     (no lead or trail)
+
+   The S-O-T solar elongation angle is numerically the minimum separation
+angle of the Sun and target in the sky in any direction. It does NOT indicate
+the amount of separation in the leading or trailing directions, which would
+be defined along the equator of a spherical coordinate system.
+
+   Units: DEGREES
+ 
+ 'S-T-O,' =
+   The Sun-Target-Observer angle; the interior vertex angle at target center
+formed by a vector from the target to the apparent center of the Sun (at
+reflection time on the target) and the apparent vector from target to the
+observer at print-time. Slightly different from true PHASE ANGLE (requestable
+separately) at the few arcsecond level in that it includes stellar aberration
+on the down-leg from target to observer.  Units: DEGREES
+ 
+ 'Sky_motion, Sky_mot_PA, RelVel-ANG,' =
+  Total apparent angular rate of the target in the plane-of-sky. "Sky_mot_PA"
+is the position angle of the target's direction of motion in the plane-of-sky,
+measured counter-clockwise from the apparent of-date north pole direction.
+"RelVel-ANG" is the flight path angle of the target's relative motion with
+respect to the observer's line-of-sight, in the range [-90,+90], where positive
+values indicate motion away from the observer, negative values are toward the
+observer:
+
+  -90 = target is moving directly toward the observer
+    0 = target is moving at right angles to the observer's line-of-sight
+  +90 = target is moving directly away from the observer
+
+UNITS:  ARCSECONDS/MINUTE, DEGREES, DEGREES
+ 
+ 'Lun_Sky_Brt  sky_SNR' =
+  Sky brightness due to moonlight scattered by Earth's atmosphere at the
+target's position in the sky. "sky_SNR" is the visual signal-to-noise ratio
+(SNR) of the target's surface brightness relative to background sky. Output
+only for topocentric Earth observers when both the Moon and target are above
+the local horizon and the Sun is in astronomical twilight (or further) below
+the horizon, and the target is not the Moon or Sun. If all conditions are
+not met, "n.a." is output. Galactic brightness, local sky light-pollution
+and weather are NOT considered. Lunar opposition surge is considered. The
+value returned is accurate under ideal conditions at the approximately 8-23%
+level, so is a useful but not definitive value.
+
+  If the target-body radius is also known, "sky_SNR" is output. This is the
+approximate visual signal-to-noise ratio of the target's brightness divided
+by lunar sky brightness. When sky_SNR < 1, the target is dimmer than the
+ideal moonlight-scattering background sky, so unlikely to be detectable at
+visual wavelengths. In practice, visibility requires sky_SNR > 1 and a
+detector sensitive enough to reach the target's magnitude, even if it isn't
+washed out by moonlight. When relating magnitudes and brightness values,
+keep in mind their logarithmic relationship m2-m1 = -2.5*log_10(b2/b1).
+
+  UNITS: VISUAL MAGNITUDES / ARCSECOND^2, and unitless ratio
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+
+*************************************************************************************************************************************************************************************
