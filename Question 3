@@ -1,0 +1,14 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+pathArtemisE = "https://raw.githubusercontent.com/Shane199514/ArtemisEath/main/ArtemisEarth.txt"
+dataArtemisE = np.genfromtxt(pathArtemisE, skip_header=157, skip_footer=48, delimiter=',', names=['JDTDB', 'Calendar Date', 'X','Y','Z'])
+
+pathMoon = "https://raw.githubusercontent.com/Shane199514/ArtemisEath/main/EarthMoon.txt"
+dataMoon = np.genfromtxt(pathMoon, skip_header=50 , skip_footer=48 , delimiter=',', names=['JDTDB','Calendar Date','X','Y','Z'])
+
+plt.scatter(0,0,s=80,color='Orange')
+plt.scatter(dataMoon['X'],dataMoon['Y'],color='yellow',s=3)
+plt.scatter(dataArtemisE['X'],dataArtemisE['Y'],s=3,color='green')
+plt.grid()
+plt.show()
