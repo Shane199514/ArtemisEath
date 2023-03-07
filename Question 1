@@ -1,0 +1,29 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = pd.read_csv(" https://raw.githubusercontent.com/Shane199514/ArtemisEath/main/67P.txt", skiprows=69, skipfooter=3, engine='python')
+plt.plot(data['Observer Range (au)']*1000, data['Observer Range Rate (km/s)']*1000, label='67P/Churyumov-Gerasimenko')
+plt.xlabel('x (km)')
+plt.ylabel('y (km)')
+plt.axis('equal')
+plt.legend()
+plt.show()
+import numpy as np
+
+t_start = pd.Timestamp('2023-03-07 00:00:00')
+t_end = t_start + pd.Timedelta('2023-03-22 00:00:00')
+
+mask = (data['DateTime'] >= t_start) & (data['DateTime'] <= t_end)
+positions = data.loc[mask, ['Observer Range (au)', 'True Anomaly Angle (deg)']].to_numpy()
+
+dt = pd.Timedelta('1 day')
+areas = []
+for i in range(len(positions)-1):
+    r1, theta1 = positions[i]
+    r2, theta2 = positions[i+1]
+    dtheta = np.radians(theta2 - theta1)
+    area = 0.5 * r1 * r2 * np.sin(dtheta)
+    areas.append(area)
+    
+total_area = sum(areas)
+print(f"Total area swept out by the comet during 1 week: {total_area:.2e} AU^2")
