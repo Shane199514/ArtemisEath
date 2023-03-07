@@ -1,0 +1,259 @@
+*******************************************************************************
+JPL/HORIZONS              67P/Churyumov-Gerasimenko        2023-Mar-06 18:06:20
+Rec #:90000697 (+COV) Soln.date: 2023-Jan-17_10:30:45   # obs: 7133 (2013-2022)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2457691.5 ! 2016-Oct-30.0000000 (TDB)    RMSW= n.a.
+   EC= .6419142432787543   QR= 1.240472505873183   TP= 2457247.9181367746
+   OM= 50.04561279541581   W= 12.83931267126669    IN= 7.052951527506115
+   A= 3.464177177085648    MA= 67.80749654588392   ADIST= 5.687881848298113
+   PER= 6.4477523207981    N= .152863546           ANGMOM= .024549929
+   DAN= 1.25272            DDN= 5.44388            L= 62.7909565
+   B= 1.5635283            MOID= .254401           TP= 2015-Aug-13.4181367746
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= 6.622E-7            RAD= 1.7
+   M1=  12.8     M2=  n.a.     k1=  8.     k2= n.a.     PHCOF= n.a.
+ 
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  0.
+   A1= 6.253191828728E-10  A2= -9.530938230455E-11 A3= 0.
+ Standard model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+ 
+COMET comments 
+1: soln ref.= JPL#K212/38, data arc: 2013-04-17 to 2022-05-28
+2: k1=8.;
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Mon Mar  6 18:06:20 2023 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: 67P/Churyumov-Gerasimenko       {source: JPL#K212/38}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: GEOCENTRIC
+*******************************************************************************
+Start time      : A.D. 2023-Mar-07 00:00:00.0000 UT      
+Stop  time      : A.D. 2023-Mar-15 00:00:00.0000 UT      
+Step-size       : 1440 minutes
+*******************************************************************************
+Target pole/equ : undefined
+Target radii    : 1.7 km                                                       
+Center geodetic : 0.0, 0.0, -6378.137             {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}       
+Target primary  : Sun
+Vis. interferer : MOON (R_eq= 1737.400) km        {source: DE441}
+Rel. light bend : Sun                             {source: DE441}
+Rel. lght bnd GM: 1.3271E+11 km^3/s^2                                          
+Small-body perts: Yes                             {source: SB441-N16}
+Atmos refraction: NO (AIRLESS)
+RA format       : HMS
+Time format     : CAL 
+Calendar mode   : Mixed Julian/Gregorian
+EOP file        : eop.230306.p230529                                           
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2023-MAR-06. PREDICTS-> 2023-MAY-28
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s 
+Table cut-offs 1: Elevation (-90.0deg=NO ),Airmass (>38.000=NO), Daylight (NO )
+Table cut-offs 2: Solar elongation (  0.0,180.0=NO ),Local Hour Angle( 0.0=NO )
+Table cut-offs 3: RA/DEC angular rate (     0.0=NO )                           
+Table format    : Comma Separated Values (spreadsheet)
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2457691.5 ! 2016-Oct-30.0000000 (TDB)    RMSW= n.a.                  
+   EC= .6419142432787543   QR= 1.240472505873183   TP= 2457247.9181367746      
+   OM= 50.04561279541581   W= 12.83931267126669    IN= 7.052951527506115       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X=-3.671444539611959E+00  Y=-1.497762385991873E+00  Z=-4.027133458856754E-01
+  VX=-2.291930438111897E-03 VY=-6.813786631688840E-03 VZ=-3.374841349586171E-03
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+   GM= 6.622E-7            RAD= 1.7                                            
+   M1=  12.8     M2=  n.a.     k1=  8.     k2= n.a.     PHCOF= n.a.            
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au): 
+   AMRAT=  0.                                      DT=  0.                     
+   A1= 6.253191828728E-10  A2= -9.530938230455E-11 A3= 0.                      
+ Standard model:                                                               
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808    
+************************************************************************************************************************************************************************************
+ Date__(UT)__HR:MN, , , R.A._(ICRF), DEC__(ICRF),    T-mag,  N-mag,             delta,     S-O-T,/r,     S-T-O,  Tru_Anom,  Sky_motion, Sky_mot_PA, RelVel-ANG, Lun_Sky_Brt  sky_SNR
+************************************************************************************************************************************************************************************
+$$SOE
+ 2023-Mar-07 00:00, , , 14 03 21.70, -11 21 38.3,   20.522,   n.a.,  3.48748456549577,  133.1524,/L,    9.8596,  144.2917,   0.2797780,  288.51277,  -46.90819,        n.a.     n.a.
+ 2023-Mar-08 00:00, , , 14 02 55.27, -11 19 27.6,   20.521,   n.a.,  3.48030557797072,  134.2664,/L,    9.6683,  144.3695,   0.2897227,  288.54429,  -45.15338,        n.a.     n.a.
+ 2023-Mar-09 00:00, , , 14 02 27.94, -11 17 12.1,   20.521,   n.a.,  3.47333315966373,  135.3839,/L,    9.4731,  144.4470,   0.2995328,  288.57489,  -43.39911,        n.a.     n.a.
+ 2023-Mar-10 00:00, , , 14 01 59.71, -11 14 51.9,   20.520,   n.a.,  3.46657212459128,  136.5048,/L,    9.2743,  144.5245,   0.3092019,  288.60474,  -41.64581,        n.a.     n.a.
+ 2023-Mar-11 00:00, , , 14 01 30.60, -11 12 27.0,   20.520,   n.a.,  3.46002728283331,  137.6290,/L,    9.0718,  144.6017,   0.3187230,  288.63398,  -39.89387,        n.a.     n.a.
+ 2023-Mar-12 00:00, , , 14 01 00.62, -11 09 57.6,   20.520,   n.a.,  3.45370344803197,  138.7564,/L,    8.8656,  144.6788,   0.3280888,  288.66271,  -38.14366,        n.a.     n.a.
+ 2023-Mar-13 00:00, , , 14 00 29.79, -11 07 23.6,   20.520,   n.a.,  3.44760544312699,  139.8872,/L,    8.6560,  144.7558,   0.3372912,  288.69102,  -36.39552,        n.a.     n.a.
+ 2023-Mar-14 00:00, , , 13 59 58.13, -11 04 45.3,   20.520,   n.a.,  3.44173810363942,  141.0210,/L,    8.4428,  144.8325,   0.3463214,  288.71894,  -34.64981,        n.a.     n.a.
+ 2023-Mar-15 00:00, , , 13 59 25.65, -11 02 02.5,   20.520,   n.a.,  3.43610627770225,  142.1580,/L,    8.2262,  144.9091,   0.3551696,  288.74651,  -32.90686,        n.a.     n.a.
+$$EOE
+************************************************************************************************************************************************************************************
+Column meaning:
+ 
+TIME
+
+  Times PRIOR to 1962 are UT1, a mean-solar time closely related to the
+prior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current
+civil or "wall-clock" time-scale. UTC is kept within 0.9 seconds of UT1
+using integer leap-seconds for 1972 and later years.
+
+  Conversion from the internal Barycentric Dynamical Time (TDB) of solar
+system dynamics to the non-uniform civil UT time-scale requested for output
+has not been determined for UTC times after the next July or January 1st.
+Therefore, the last known leap-second is used as a constant over future
+intervals.
+
+  Time tags refer to the UT time-scale conversion from TDB on Earth
+regardless of observer location within the solar system, although clock
+rates may differ due to the local gravity field and no analog to "UT"
+may be defined for that location.
+
+  Any 'b' symbol in the 1st-column denotes a B.C. date. First-column blank
+(" ") denotes an A.D. date.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+  NOTE: "n.a." in output means quantity "not available" at the print-time.
+ 
+ 'R.A._(ICRF), DEC__(ICRF),' =
+  Astrometric right ascension and declination of the target center with
+respect to the observing site (coordinate origin) in the reference frame of
+the planetary ephemeris (ICRF). Compensated for down-leg light-time delay
+aberration.
+
+  Units: RA  in hours-minutes-seconds of time,    HH MM SS.ff{ffff}
+         DEC in degrees-minutes-seconds of arc,  sDD MN SC.f{ffff}
+ 
+ 'T-mag,  N-mag,' =
+   Comets' apparent visual total magnitude ("T-mag") and nuclear magnitude
+("N-mag") using the standard IAU model:
+
+   T-mag= M1 + 5*log10(delta) + k1*log10(r)
+   N-mag= M2 + 5*log10(delta) + k2*log10(r) + phcof*beta
+
+   Units: MAGNITUDES
+ 
+ 'delta,' =
+   Apparent range ("delta", light-time aberrated) of the target center relative
+to the observer.  Units: AU
+ 
+ 'S-O-T,/r,' =
+   Sun-Observer-Target apparent SOLAR ELONGATION ANGLE seen from the observers'
+location at print-time.
+
+   The '/r' column provides a code indicating the targets' apparent position
+relative to the Sun in the observers' sky, as described below:
+
+   Case A: For an observing location on the surface of a rotating body, that
+body rotational sense is considered:
+
+    /T indicates target TRAILS Sun   (evening sky: rises and sets AFTER Sun)
+    /L indicates target LEADS Sun    (morning sky: rises and sets BEFORE Sun)
+
+   Case B: For an observing point that does not have a rotational model (such
+as a spacecraft), the "leading" and "trailing" condition is defined by the
+observers' heliocentric ORBITAL motion:
+
+    * If continuing in the observers' current direction of heliocentric
+       motion would encounter the targets' apparent longitude first, followed
+       by the Sun's, the target LEADS the Sun as seen by the observer.
+
+    * If the Sun's apparent longitude would be encountered first, followed
+       by the targets', the target TRAILS the Sun.
+
+   Two other codes can be output:
+    /* indicates observer is Sun-centered    (undefined)
+    /? Target is aligned with Sun center     (no lead or trail)
+
+   The S-O-T solar elongation angle is numerically the minimum separation
+angle of the Sun and target in the sky in any direction. It does NOT indicate
+the amount of separation in the leading or trailing directions, which would
+be defined along the equator of a spherical coordinate system.
+
+   Units: DEGREES
+ 
+ 'S-T-O,' =
+   The Sun-Target-Observer angle; the interior vertex angle at target center
+formed by a vector from the target to the apparent center of the Sun (at
+reflection time on the target) and the apparent vector from target to the
+observer at print-time. Slightly different from true PHASE ANGLE (requestable
+separately) at the few arcsecond level in that it includes stellar aberration
+on the down-leg from target to observer.  Units: DEGREES
+ 
+ 'Tru_Anom,' =
+   Apparent true anomaly angle of the targets' heliocentric orbit position;
+the angle in the targets' instantaneous orbit plane from the orbital periapse
+direction to the target, measured positively in the direction of motion.
+The position of the target is taken to be at the moment light seen by the
+observer at print-time would have left the center of the object. That is,
+the heliocentric position of the target used to compute the true anomaly is
+one down-leg light-time prior to the print-time. Units: DEGREES
+ 
+ 'Sky_motion, Sky_mot_PA, RelVel-ANG,' =
+  Total apparent angular rate of the target in the plane-of-sky. "Sky_mot_PA"
+is the position angle of the target's direction of motion in the plane-of-sky,
+measured counter-clockwise from the apparent of-date north pole direction.
+"RelVel-ANG" is the flight path angle of the target's relative motion with
+respect to the observer's line-of-sight, in the range [-90,+90], where positive
+values indicate motion away from the observer, negative values are toward the
+observer:
+
+  -90 = target is moving directly toward the observer
+    0 = target is moving at right angles to the observer's line-of-sight
+  +90 = target is moving directly away from the observer
+
+UNITS:  ARCSECONDS/MINUTE, DEGREES, DEGREES
+ 
+ 'Lun_Sky_Brt  sky_SNR' =
+  Sky brightness due to moonlight scattered by Earth's atmosphere at the
+target's position in the sky. "sky_SNR" is the visual signal-to-noise ratio
+(SNR) of the target's surface brightness relative to background sky. Output
+only for topocentric Earth observers when both the Moon and target are above
+the local horizon and the Sun is in astronomical twilight (or further) below
+the horizon, and the target is not the Moon or Sun. If all conditions are
+not met, "n.a." is output. Galactic brightness, local sky light-pollution
+and weather are NOT considered. Lunar opposition surge is considered. The
+value returned is accurate under ideal conditions at the approximately 8-23%
+level, so is a useful but not definitive value.
+
+  If the target-body radius is also known, "sky_SNR" is output. This is the
+approximate visual signal-to-noise ratio of the target's brightness divided
+by lunar sky brightness. When sky_SNR < 1, the target is dimmer than the
+ideal moonlight-scattering background sky, so unlikely to be detectable at
+visual wavelengths. In practice, visibility requires sky_SNR > 1 and a
+detector sensitive enough to reach the target's magnitude, even if it isn't
+washed out by moonlight. When relating magnitudes and brightness values,
+keep in mind their logarithmic relationship m2-m1 = -2.5*log_10(b2/b1).
+
+  UNITS: VISUAL MAGNITUDES / ARCSECOND^2, and unitless ratio
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+
+************************************************************************************************************************************************************************************
